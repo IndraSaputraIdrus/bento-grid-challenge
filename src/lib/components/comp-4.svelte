@@ -47,7 +47,7 @@
 		<p class="text-base font-medium">Best Time to Post</p>
 		<hr class="text-neutral-black/20" />
 		<div class="space-y-4">
-			<ul class="text-neutral-black/50 flex items-center justify-between text-xs">
+			<ul class="text-neutral-black/50 flex items-center justify-between text-xs gap-1">
 				{#each Object.keys(chartData) as day}
 					{@const active = selected === day}
 					<li>
