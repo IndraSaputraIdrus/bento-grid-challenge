@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warna Netral */
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-black: hsl(0, 0%, 7%);
+
+  /* Warna Aksen (Ungu) */
+  --color-accent-purple-100: hsl(254, 88%, 90%);
+  --color-accent-purple-500: hsl(256, 67%, 59%);
+
+  /* Warna Aksen (Kuning) */
+  --color-accent-yellow-100: hsl(31, 66%, 93%);
+  --color-accent-yellow-500: hsl(39, 100%, 71%);
+
+  /* Warna Utama (Opsional) */
+  --color-primary: var(--color-accent-purple-500); /* Ungu */
+  --color-secondary: var(--color-accent-yellow-500); /* Kuning */
+
+  --font-dm-sans: 'DM Sans Variable', sans-serif;
+}
