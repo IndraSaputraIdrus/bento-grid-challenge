@@ -17,5 +17,8 @@
   --color-primary: var(--color-accent-purple-500); /* Ungu */
   --color-secondary: var(--color-accent-yellow-500); /* Kuning */
 
+  --color-muted: hsla(0, 0%, 7%, 55%);
+
   --font-dm-sans: 'DM Sans Variable', sans-serif;
 }
+
