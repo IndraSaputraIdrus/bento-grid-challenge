@@ -1,25 +1,32 @@
+<script module>
+	export { arrowUp };
+</script>
+
 <script lang="ts"></script>
 
 {#snippet badge(text: string)}
 	<span class="block rounded-lg bg-green-200 px-1 py-0.5 text-xs text-green-700">{text}</span>
 {/snippet}
 
+{#snippet arrowUp(size: string = 'size-11')}
+	<div class="bg-accent-yellow-500 flex items-center justify-center rounded-full {size}">
+		<svg
+			class="text-accent-purple-500 size-8"
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"><path d="m5 12 7-7 7 7" /><path d="M12 19V5" /></svg
+		>
+	</div>
+{/snippet}
+
 {#snippet chartBadge()}
 	<div class="bg-neutral-white absolute -right-8 -bottom-5 z-[99] flex rounded-full p-2.5">
 		<div class="flex items-center gap-2">
-			<div class="bg-accent-yellow-500 flex size-11 items-center justify-center rounded-full">
-				<svg
-					class="text-accent-purple-500 size-8"
-					xmlns="http://www.w3.org/2000/svg"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"><path d="m5 12 7-7 7 7" /><path d="M12 19V5" /></svg
-				>
-			</div>
-
+			{@render arrowUp()}
 			<div>
 				<span class="text-muted text-sm">Followers</span>
 				<div class="-mt-1 flex items-center gap-2">
@@ -57,7 +64,9 @@
 <div class="bg-accent-purple-500 max-w-136 rounded-lg p-4 md:pb-9">
 	<div class="flex flex-col items-center gap-13 md:flex-row">
 		{@render chart()}
-		<div class="text-neutral-white text-center text-2xl font-medium text-balance md:text-start md:text-4xl md:text-pretty">
+		<div
+			class="text-neutral-white text-center text-2xl font-medium text-balance md:text-start md:text-4xl md:text-pretty"
+		>
 			<h2>Grow followers with non-stop content.</h2>
 		</div>
 	</div>
