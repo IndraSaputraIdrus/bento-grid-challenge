@@ -15,8 +15,8 @@
 	const userImage = 'https://avatar.iran.liara.run/public/85';
 </script>
 
-<div class="bg-accent-yellow-500 max-w-88 min-w-68 space-y-4 rounded-lg p-4 md:w-min">
-	<h2 class="text-2xl font-medium text-pretty">Write your content using AI.</h2>
+<div class="bg-accent-yellow-500 space-y-4 rounded-lg p-4 w-full h-full">
+	<h2 class="text-2xl font-medium text-pretty md:text-4xl">Write your content using AI.</h2>
 
 	<div class="relative max-w-55 ">
 		<div class="bg-neutral-white flex flex-col gap-4 rounded-xl p-4">

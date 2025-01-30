@@ -32,11 +32,11 @@
 	</div>
 {/snippet}
 
-<div class="bg-neutral-white rounded-lg p-4 shadow-lg min-w-68 max-w-88 md:w-min">
-	<div class="grid grid-cols-2 gap-4 md:grid-cols-1">
+<div class="bg-neutral-white rounded-lg p-4 h-full">
+	<div class="grid grid-cols-2 gap-4 md:gap-6">
 		{@render socialCard(instagram, '12K')}
 		{@render socialCard(twitter, '8K')}
-		<div class="col-span-2 font-medium text-2xl/7 md:col-span-1 md:text-balance">
+		<div class="col-span-2 font-medium text-2xl/7 md:text-balance md:text-3xl/7">
 			<p>Manage multiple accounts and platforms.</p>
 		</div>
 	</div>

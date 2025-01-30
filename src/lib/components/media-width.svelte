@@ -19,7 +19,7 @@
 
 <svelte:window onresize={handleResize} />
 
-<div class={['fixed z-[99999] bottom-5 w-full', 'flex gap-2 justify-center']}>
+<div class={['fixed bottom-5 z-[99999] w-full', 'container mx-auto flex justify-center gap-2']}>
 	<div class={['bg-black text-white', 'shadow-lg', 'inline-block p-2', 'rounded-md']}>
 		Width: {windowWidth}px / {(windowWidth / 16).toFixed(2)}rem
 	</div>

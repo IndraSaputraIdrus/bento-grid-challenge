@@ -54,7 +54,7 @@
 {/snippet}
 
 <div
-	class="bg-accent-yellow-500 relative max-w-88 min-w-68 space-y-4 overflow-hidden rounded-lg p-4 pb-32 md:w-min md:pb-24"
+	class="bg-accent-yellow-500 relative space-y-4 overflow-hidden rounded-lg p-4 pb-32 md:pb-24 h-full"
 >
 	<div class="text-start text-2xl/6 font-medium text-balance md:text-3xl/6">
 		<h2>Maintain a consistent posting schedule.</h2>

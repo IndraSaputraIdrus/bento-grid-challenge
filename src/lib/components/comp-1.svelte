@@ -14,7 +14,7 @@
 	>
 {/snippet}
 
-<div class="bg-primary text-neutral-white space-y-6 rounded-lg p-11 max-w-136">
+<div class="bg-primary text-neutral-white space-y-6 rounded-lg p-11 h-full md:flex flex-col items-center justify-center">
 	<div class="text-center text-4xl font-medium text-balance md:text-5xl">
 		<h1>Social Media <span class="text-secondary">10x</span> Faster with AI</h1>
 	</div>

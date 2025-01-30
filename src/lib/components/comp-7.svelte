@@ -33,7 +33,7 @@
 	>
 {/snippet}
 
-<div class="bg-accent-yellow-100 max-w-88 min-w-66 space-y-4 rounded-lg p-4 md:w-min">
+<div class="bg-accent-yellow-100 space-y-4 rounded-lg p-4 md:h-full md:flex flex-col justify-center">
 	<h2 class="text-2xl font-medium md:text-4xl">
 		Create and schedule content <span class="text-accent-purple-500 italic">quicker.</span>
 	</h2>

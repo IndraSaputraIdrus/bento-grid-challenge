@@ -61,7 +61,7 @@
 	</div>
 {/snippet}
 
-<div class="bg-accent-purple-500 max-w-136 rounded-lg p-4 md:pb-9">
+<div class="bg-accent-purple-500 rounded-lg p-4 md:pb-9 w-full h-full">
 	<div class="flex flex-col items-center gap-13 md:flex-row">
 		{@render chart()}
 		<div
