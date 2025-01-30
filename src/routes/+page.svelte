@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { MediaWidth, Comp1, Comp2, Comp3, Comp4, Comp5 } from '$lib/components';
+	import { MediaWidth, Comp1, Comp2, Comp3, Comp4, Comp5, Comp6 } from '$lib/components';
 </script>
 
 <div class="bg-accent-purple-100/30 text-neutral-black font-dm-sans min-h-dvh text-lg">
@@ -10,6 +10,7 @@
 			<Comp3 />
 			<Comp4 />
       <Comp5 />
+      <Comp6 />
 			<MediaWidth />
 		</div>
 	</main>
